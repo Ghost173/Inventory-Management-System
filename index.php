@@ -18,7 +18,7 @@
 include_once("./templates/header.php");
 ?>
 <!-- card -->
-<p><br/></p>
+ <div class="jumbotron" style="width:100%;height:100%;">
  <div class="container">
     <div class="card mx-auto" style="width: 20rem;">
   <img src="./images/login.png" class="card-img-top mx-auto" style="width:60%;" alt="login images">
@@ -42,6 +42,8 @@ include_once("./templates/header.php");
   <div class="card-footer"><a href="#" class="card-link">Forget Password</a></div>
 </div>
 </div>
+ </div>
+ 
 
 </body>
 </html>
