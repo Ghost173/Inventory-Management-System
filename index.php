@@ -17,6 +17,31 @@
 <?php
 include_once("./templates/header.php");
 ?>
+<!-- card -->
+<p><br/></p>
+ <div class="container">
+    <div class="card mx-auto" style="width: 20rem;">
+  <img src="./images/login.png" class="card-img-top mx-auto" style="width:60%;" alt="login images">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <!-- <p class="card-text"></p> -->
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">enter your email</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <span> <a href="#" class="card-link">Register</a></span>
+</form>
+  </div>
+  <div class="card-footer"><a href="#" class="card-link">Forget Password</a></div>
+</div>
+</div>
 
 </body>
 </html>
