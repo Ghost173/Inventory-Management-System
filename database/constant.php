@@ -2,6 +2,6 @@
 
 define("HOST","localhost");
 define("USER","root");
-define("PASS","password1");
+define("PASS","password");
 define("DB","project_inv");
 ?>
