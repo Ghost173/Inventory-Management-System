@@ -1,3 +1,3 @@
- $(document).ready(function(){
-        alert("page load success");
-    })
+//  $(document).ready(function(){
+//         alert("page load success");
+//     })
