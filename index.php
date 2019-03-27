@@ -13,7 +13,10 @@
 </head>
 <body>
     
-<div class="jumbotron"><h1>hello world</h1></div>
+<!-- <div class="jumbotron"><h1>hello world</h1></div> -->
+<?php
+include_once("./templates/header.php");
+?>
 
 </body>
 </html>
