@@ -36,7 +36,7 @@ include_once("./templates/header.php");
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-  <span> <a href="#" class="card-link">Register</a></span>
+  <span> <a href="register.php" class="card-link">Register</a></span>
 </form>
   </div>
   <div class="card-footer"><a href="#" class="card-link">Forget Password</a></div>
