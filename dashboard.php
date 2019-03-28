@@ -61,7 +61,7 @@ include_once("./templates/header.php");
         <div class="card-body">
          <h5 class="card-title">Manage Categories</h5>
          <p class="card-text">Here you can manage categories and categories</p>
-         <a href="#" class="btn btn-primary">Add</a>
+         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#category">Add</a>
          <a href="#" class="btn btn-primary">Manage</a>
      </div>
     </div>
@@ -72,7 +72,7 @@ include_once("./templates/header.php");
         <div class="card-body">
          <h5 class="card-title">Brands</h5>
          <p class="card-text">Here you can manage Brands and add Brands</p>
-         <a href="#" class="btn btn-primary">Add</a>
+         <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#brand">Add</a>
          <a href="#" class="btn btn-primary">Manage</a>
      </div>
     </div>
@@ -82,7 +82,7 @@ include_once("./templates/header.php");
         <div class="card-body">
          <h5 class="card-title">Products</h5>
          <p class="card-text">Here you can manage Products and add Products</p>
-         <a href="#" class="btn btn-primary">Add</a>
+         <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#produt">Add</a>
          <a href="#" class="btn btn-primary">Manage</a>
      </div>
     </div>
@@ -90,6 +90,10 @@ include_once("./templates/header.php");
 </div>
 </div>
 
-
+<?php  
+include_once("./templates/categorie.php");
+include_once("./templates/brand.php");
+include_once("./templates/products.php");
+?>
 </body>
 </html>
